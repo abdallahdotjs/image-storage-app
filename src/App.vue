@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    Image Storage
+    <AppHeader></AppHeader>
   </div>
 </template>
 
 <script>
-
+import AppHeader from './components/AppHeader';
+  
 export default {
   name: 'app',
+  components:{AppHeader}
 }
 </script>
 
